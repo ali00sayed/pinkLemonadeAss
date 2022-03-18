@@ -1,13 +1,81 @@
 .btn{
     background-color: black;
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 12px;
-    height: 25px;
+    height: 35px;
+    width: 140px;
     position: relative;
     /*  */
     
 }
+#btn1{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 35px;
+    width: 140;
+    border: 0;   
+}
+#btn2{
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 35px;
+    width: 140;
+    border: 0; 
+}
+#btn3{
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 35px;
+    width: 140;
+    border: 0;   
+}
+#btn4{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 35px;
+    width: 150;
+    border: 0;   
+    align-items: center;
+}
+#btn5{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 35px;
+    width: 190;
+    border: 0;   
+    align-items: center;
+}
+#btn6{
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 35px;
+    width: 140;
+    border: 0; 
+}
+#btn7{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 35px;
+    width: 190;
+    border: 0;   
+    align-items: center;
+}
+
 .p7{
     margin-top: 0px;
 }
@@ -118,15 +186,17 @@
 }
 .sec3{
     height: 200px;
-    /* background-color: #B14B43; */
     display: flex;
     height: 200px;
-    /* background-color: orange; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-  
     position: relative;
+}
+ #line{
+    height: 150px;
+    width: 2px;
+    color: #F9A838;
 }
 
 .sec3::before{
@@ -143,15 +213,23 @@
     
 }
 .sec1{
+    text-align: center;
     color: black;
     font-weight: 200;
     font-size: large;
     position: relative;
+    margin-top: 100px;
  
 }
-.sec100{
-    color:#F9A838
+#csec1{
+    text-align: center;
+    color: rgb(255, 115, 0);
+    font-weight: 200;
+    font-size: large;
+    position: relative;
+    margin-top: 100px;
 }
+
 .sec4{
   
     height: 400px;
@@ -173,16 +251,16 @@
    
 }
 .num2{
-    display: flex;
+  display: flex;
   justify-content: center;  
-  flex-direction: column;
+  flex-direction: colum;
 }
-.num2c{
-    align-self: center;
+#num2c{
+padding-left: 70px;
 }
 .nums{
     border:none;
-    background-color: skyblue;
+    background-color: rgb(238, 230, 230);
     width: 150px;
     height: 100px;
     border: 1px solid wheat;
@@ -192,7 +270,8 @@
     justify-content: center;
     flex-direction: column;
     box-shadow: 1px 3px #c8c4c9;
-    /* align-items: center; */
+    align-items: center; 
+    justify-content: center;
    
 }
 .s1{
@@ -205,9 +284,12 @@
     padding: 10px;
 }
 .sec5{
-    height: 400px;
+    height: 500px;
     display: flex;
     
+}
+.inpara{
+    font-size: 32px;
 }
 .inpara1{
     background-color: brown;
@@ -221,7 +303,7 @@
 }
 
 inpara1 p{
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .inparaleft{
@@ -230,21 +312,22 @@ inpara1 p{
     display: inline-flex;
     justify-content: flex-end;
     align-items: center;
- opacity: 0.8;
+  
 }
 .inparaleft1{
    height: 100px;
     width: 50%;
     background-color: brown;
     flex-direction: column;
-    border-radius: 20px 0 0 20px;
+    border-radius: 22px 0 0 22px;
+  
    
 }
 .inparaleft2{
     height: 400px;
      width: 100%;
-     background-color: brown;
-     border-radius: 20px 0 0 20px;
+     background-color:brown;
+     border-radius: 25px 0 0 20px;
       
  }
   .sec8{
@@ -255,6 +338,7 @@ inpara1 p{
   }
   .sec81{
       width: 50%;
+      padding-left: 40px;
   }
   .sec82{
       display: flex;
@@ -273,6 +357,9 @@ inpara1 p{
       flex-direction: column;
       background-color: #F8F8F8;
       height: 500px;
+  }
+  #color{
+      background: rgb(235, 230, 230);
   }
   .hubimages{
       display: flex;
@@ -312,4 +399,7 @@ inpara1 p{
   }
   .social>li{
       padding: 5px;
+  }
+  body{
+      font-family:sans-serif;
   }
